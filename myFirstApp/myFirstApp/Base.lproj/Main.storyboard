@@ -78,13 +78,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mi Primera Aplicacion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iJ-Sk-KZa">
-                                <rect key="frame" x="101" y="572" width="165" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Escultura" translatesAutoresizingMaskIntoConstraints="NO" id="Lwp-Dx-tmh">
+                                <rect key="frame" x="53" y="488" width="287" height="277"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.70744225103826008" green="0.89000000000000001" blue="0.68860069400478374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -95,4 +92,7 @@
             <point key="canvasLocation" x="101.53846153846153" y="3.5545023696682461"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Escultura" width="3024" height="3024"/>
+    </resources>
 </document>
