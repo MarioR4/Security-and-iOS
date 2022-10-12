@@ -14,10 +14,16 @@ class ViewController: UIViewController {
     @IBOutlet var numeroSuperior: UITextField!
     @IBOutlet var numeroInferior: UITextField!
     
+    func mostrarAlerta(mensaje: String) {
+        let alert = UIAlertController(title: "Alerta!!", message: mensaje, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Cerrar", style: UIAlertAction.Style.cancel))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     @IBAction func Suma(_ sender: UIButton) {
         let num1 = Double(numeroSuperior.text ?? "0")
         let num2 = Double(numeroInferior.text ?? "0")
-        var mensaje = "poner ambas"
+        var mensaje: String = "poner ambas"
         
         // Control de Variables
         if (num1 != nil && num2 != nil) {
@@ -25,15 +31,13 @@ class ViewController: UIViewController {
             mensaje = String(resultado)
         }
         
-        let alert = UIAlertController(title: "Alerta!!", message: mensaje, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Cerrar", style: UIAlertAction.Style.cancel))
-        self.present(alert, animated: true, completion: nil)
+        mostrarAlerta(mensaje: mensaje)
     }
     
     @IBAction func Resta(_ sender: UIButton) {
         let num1 = Double(numeroSuperior.text ?? "0")
         let num2 = Double(numeroInferior.text ?? "0")
-        var mensaje = "poner ambas"
+        var mensaje: String = "poner ambas"
         
         // Control de Variables
         if (num1 != nil && num2 != nil) {
@@ -41,15 +45,13 @@ class ViewController: UIViewController {
             mensaje = String(resultado)
         }
         
-        let alert = UIAlertController(title: "Alerta!!", message: mensaje, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Cerrar", style: UIAlertAction.Style.cancel))
-        self.present(alert, animated: true, completion: nil)
+        mostrarAlerta(mensaje: mensaje)
     }
     
     @IBAction func Multiplicacion(_ sender: UIButton) {
         let num1 = Double(numeroSuperior.text ?? "0")
         let num2 = Double(numeroInferior.text ?? "0")
-        var mensaje = "poner ambas"
+        var mensaje: String = "poner ambas"
         
         // Control de Variables
         if (num1 != nil && num2 != nil) {
@@ -57,42 +59,40 @@ class ViewController: UIViewController {
             mensaje = String(resultado)
         }
         
-        let alert = UIAlertController(title: "Alerta!!", message: mensaje, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Cerrar", style: UIAlertAction.Style.cancel))
-        self.present(alert, animated: true, completion: nil)
+        mostrarAlerta(mensaje: mensaje)
     }
     
     @IBAction func division(_ sender: UIButton) {
         let dividendo = Double(numeroSuperior.text ?? "0")
         let divisor = Double(numeroInferior.text ?? "0")
-        var mensaje = "poner ambas"
+        var mensaje: String = "poner ambas"
         
         // Control de Variables
-        //if (dividendo != nil && divisor != nil) {
-          //  let resultado = (dividendo!) / (divisor!)
-            //mensaje = String(resultado)
-        //}
+        if (dividendo != nil && divisor != nil) {
+            let resultado = (dividendo!) / (divisor!)
+            mensaje = String(resultado)
+        }
         // Control de excepciones
         
-        let alert = UIAlertController(title: "Alerta!!", message: mensaje, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Cerrar", style: UIAlertAction.Style.cancel))
-        self.present(alert, animated: true, completion: nil)
+        mostrarAlerta(mensaje: mensaje)
     }
     
     @IBAction func botonUnoClick(_ sender: UIButton) {
-        let alert = UIAlertController(title: "Alerta!!", message: usuarioTextField.text, preferredStyle: UIAlertController.Style.alert)
-        
-        alert.addAction(UIAlertAction(title: "Cerrar", style: UIAlertAction.Style.cancel))
-        self.present(alert, animated: true, completion: nil)
+        let mensaje: String = usuarioTextField.text!
+        mostrarAlerta(mensaje: mensaje)
     }
     
+    @IBAction func navegarAImagen(_ sender: UIButton) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let imagenViewController = storyBoard.instantiateViewController(withIdentifier: "imagenViewController")
+        self.present(imagenViewController, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         usuarioTextField.text = "Segunda Aplicación"
         usuarioTextField.textColor = UIColor(red: 36/255, green: 80/255, blue: 155/255, alpha: 1.0)
     }
-
-
+    
 }
 
