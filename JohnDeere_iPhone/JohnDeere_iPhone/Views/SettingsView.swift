@@ -51,56 +51,55 @@ struct SettingsView: View {
                         .font(.system(size: 20))
                 }
             }
-            //.frame(height: 140)
-            //.padding()
-            
-            // Solo el título de pruebate
-            /*HStack {
-                VStack {
-                    Text("Pruebate")
-                        .foregroundColor(Color(dataSource.selectedTheme.fontColor))
-                        .font(.system(size: 41))
-                }
-                .padding([.top, .leading])
-                Spacer()
-            }*/
             .padding()
             
-            // Lista de Quizes
+            // Lista de Configuraciones
             ScrollView {
+                // Lista de Temas
                 ZStack {
-                    RoundedRectangle(cornerRadius: 10)
+                    RoundedRectangle(cornerRadius: 20)
                         .fill(Color(dataSource.selectedTheme.boxesColor))
-                        .frame(height: 82)
+                        .frame(height: 110)
                         .padding([.bottom, .horizontal])
-                    //GeometryReader { geo in
-                    ScrollView(.horizontal) {
+                    VStack {
                         HStack {
-                            ForEach(0..<ThemeManager.themes.count, id: \.self) {theme in
-                                Button() { //ThemeManager.themes[theme].themeName) {
-                                    dataSource.selectedThemeAppStorage = theme
-                                } label: {
-                                    Image(systemName: "app.fill")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 50, height: 50)
-                                        .foregroundColor(Color(ThemeManager.themes[theme].primaryColor))
-                                        .padding([.leading, .bottom])
-                                }
-                                
-                            }
-                            //.frame(width: geo.size.width, height: geo.size.height)
-                            
+                            Text("Temas")
+                                .padding(.horizontal)
+                                .foregroundColor(Color(dataSource.selectedTheme.fontColor))
+                                .font(.system(size: 20))
+                            Spacer()
                         }
+                        .padding(.horizontal)
+                        
+                        ScrollView(.horizontal) {
+                            HStack {
+                                ForEach(0..<ThemeManager.themes.count, id: \.self) {theme in
+                                    Button() { //ThemeManager.themes[theme].themeName) {
+                                        dataSource.selectedThemeAppStorage = theme
+                                    } label: {
+                                        Image(systemName: "app.fill")
+                                            .resizable()
+                                            .scaledToFit()
+                                            .frame(width: 45, height: 45)
+                                            .foregroundColor(Color(ThemeManager.themes[theme].primaryColor))
+                                            .padding([.leading, .bottom])
+                                    }
+                                }
+                            }
+                        }
+                        .padding(.horizontal)
                     }
-                    .padding(.horizontal)
-                    //.font(.system(size: 24))
+                }
+                ZStack {
+                    RoundedRectangle(cornerRadius: 20)
+                        .fill(Color(dataSource.selectedTheme.boxesColor))
+                        .frame(height: 110)
+                        .padding([.bottom, .horizontal])
                 }
             }
-            //.background(Color.red)
             .frame(maxWidth: .infinity, minHeight: 60)
             .padding(.horizontal)
-            
+            Spacer()
             // Blank space where the TabBar is
             Spacer()
                 .frame(height: 82)

@@ -10,7 +10,8 @@ import Foundation
 enum ThemeManager {
     static let themes: [Theme] = [DefaultLightTheme(),
                                   DefaultDarkTheme(),
-                                  NoirTheme()]
+                                  NoirTheme(),
+                                  PastelTheme()]
     
     static func getTheme(_ theme: Int) -> Theme {
         Self.themes[theme]

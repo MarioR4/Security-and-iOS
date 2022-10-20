@@ -46,3 +46,16 @@ struct NoirTheme: Theme {
     var quinaryColor: UIColor = UIColor(named: "NoirQuinary")!
     var senaryColor: UIColor = UIColor(named: "NoirSenary")!
 }
+
+struct PastelTheme: Theme {
+    var themeName: String = "Pastel Theme"
+    var fontColor: UIColor = UIColor(named: "PastelFont")!
+    var backgroundColor: UIColor = UIColor(named: "PastelBackground")!
+    var boxesColor: UIColor = UIColor(named: "PastelBoxes")!
+    var primaryColor: UIColor = UIColor(named: "PastelPrimary")!
+    var secondaryColor: UIColor = UIColor(named: "PastelSecondary")!
+    var tertiaryColor: UIColor = UIColor(named: "PastelTertiary")!
+    var quaternaryColor: UIColor = UIColor(named: "PastelQuaternary")!
+    var quinaryColor: UIColor = UIColor(named: "PastelQuinary")!
+    var senaryColor: UIColor = UIColor(named: "PastelSenary")!
+}

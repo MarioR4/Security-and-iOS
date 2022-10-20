@@ -24,13 +24,21 @@ struct TechnicalCourseView: View {
         VStack {
             HStack {
                 VStack {
-                    Text("Curso")
-                        .foregroundColor(Color(dataSource.selectedTheme.fontColor))
-                        .font(.system(size: 62).weight(.bold))
-                    Text("Técnico")
-                        .padding([.leading, .bottom])
-                        .foregroundColor(Color(dataSource.selectedTheme.fontColor))
-                        .font(.system(size: 62).weight(.bold))
+                    HStack {
+                        Text("Curso")
+                            .foregroundColor(Color(dataSource.selectedTheme.fontColor))
+                            .font(.system(size: 62).weight(.bold))
+                            .padding(.leading)
+                        Spacer()
+                    }
+                    HStack {
+                        Text("Técnico")
+                            .padding([.leading, .bottom])
+                            .padding(.leading)
+                            .foregroundColor(Color(dataSource.selectedTheme.fontColor))
+                            .font(.system(size: 62).weight(.bold))
+                        Spacer()
+                    }
                 }
                 Spacer()
             }
