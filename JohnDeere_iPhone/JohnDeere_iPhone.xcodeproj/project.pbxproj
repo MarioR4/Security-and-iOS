@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85A84D5028FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D4F28FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift */; };
+		85A84D5228FB7BAF00E047C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D5128FB7BAF00E047C8 /* ContentView.swift */; };
+		85A84D5428FB7BB700E047C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A84D5328FB7BB700E047C8 /* Assets.xcassets */; };
+		85A84D5728FB7BB700E047C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A84D5628FB7BB700E047C8 /* Preview Assets.xcassets */; };
+		85A84D6128FB7BB900E047C8 /* JohnDeere_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D6028FB7BB900E047C8 /* JohnDeere_iPhoneTests.swift */; };
+		85A84D6B28FB7BB900E047C8 /* JohnDeere_iPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D6A28FB7BB900E047C8 /* JohnDeere_iPhoneUITests.swift */; };
+		85A84D6D28FB7BB900E047C8 /* JohnDeere_iPhoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D6C28FB7BB900E047C8 /* JohnDeere_iPhoneUITestsLaunchTests.swift */; };
+		85C7480A28FCAB8D002C0B6F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7480928FCAB8D002C0B6F /* ProfileView.swift */; };
+		85C7480C28FCAC56002C0B6F /* MyCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7480B28FCAC56002C0B6F /* MyCourseView.swift */; };
+		85C7480E28FCAC9D002C0B6F /* TechnicalCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7480D28FCAC9D002C0B6F /* TechnicalCourseView.swift */; };
+		85C7481028FCC286002C0B6F /* AdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7480F28FCC286002C0B6F /* AdminView.swift */; };
+		85C7481228FCC298002C0B6F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7481128FCC298002C0B6F /* SettingsView.swift */; };
+		85D0DF3928FC7216009C268B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF3828FC7216009C268B /* TabBar.swift */; };
+		85D0DF3B28FC7D9B009C268B /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF3A28FC7D9B009C268B /* TabBarButton.swift */; };
+		85D0DF3E28FC9429009C268B /* ThemeChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF3D28FC9429009C268B /* ThemeChanger.swift */; };
+		85D0DF4028FC94D2009C268B /* ThemeDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF3F28FC94D2009C268B /* ThemeDefinitions.swift */; };
+		85D0DF4228FC9620009C268B /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF4128FC9620009C268B /* ThemeManager.swift */; };
+		85D0DF4428FC96B8009C268B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF4328FC96B8009C268B /* DataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85A84D5D28FB7BB900E047C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85A84D4428FB7BAF00E047C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A84D4B28FB7BAF00E047C8;
+			remoteInfo = JohnDeere_iPhone;
+		};
+		85A84D6728FB7BB900E047C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85A84D4428FB7BAF00E047C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A84D4B28FB7BAF00E047C8;
+			remoteInfo = JohnDeere_iPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85A84D4C28FB7BAF00E047C8 /* JohnDeere_iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnDeere_iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A84D4F28FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnDeere_iPhoneApp.swift; sourceTree = "<group>"; };
+		85A84D5128FB7BAF00E047C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85A84D5328FB7BB700E047C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A84D5628FB7BB700E047C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85A84D5C28FB7BB900E047C8 /* JohnDeere_iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohnDeere_iPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A84D6028FB7BB900E047C8 /* JohnDeere_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnDeere_iPhoneTests.swift; sourceTree = "<group>"; };
+		85A84D6628FB7BB900E047C8 /* JohnDeere_iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohnDeere_iPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A84D6A28FB7BB900E047C8 /* JohnDeere_iPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnDeere_iPhoneUITests.swift; sourceTree = "<group>"; };
+		85A84D6C28FB7BB900E047C8 /* JohnDeere_iPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnDeere_iPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85C7480928FCAB8D002C0B6F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		85C7480B28FCAC56002C0B6F /* MyCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCourseView.swift; sourceTree = "<group>"; };
+		85C7480D28FCAC9D002C0B6F /* TechnicalCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalCourseView.swift; sourceTree = "<group>"; };
+		85C7480F28FCC286002C0B6F /* AdminView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminView.swift; sourceTree = "<group>"; };
+		85C7481128FCC298002C0B6F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		85D0DF3828FC7216009C268B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		85D0DF3A28FC7D9B009C268B /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		85D0DF3D28FC9429009C268B /* ThemeChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChanger.swift; sourceTree = "<group>"; };
+		85D0DF3F28FC94D2009C268B /* ThemeDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDefinitions.swift; sourceTree = "<group>"; };
+		85D0DF4128FC9620009C268B /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		85D0DF4328FC96B8009C268B /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A84D4928FB7BAF00E047C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A84D5928FB7BB900E047C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A84D6328FB7BB900E047C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85A84D4328FB7BAF00E047C8 = {
+			isa = PBXGroup;
+			children = (
+				85A84D4E28FB7BAF00E047C8 /* JohnDeere_iPhone */,
+				85A84D5F28FB7BB900E047C8 /* JohnDeere_iPhoneTests */,
+				85A84D6928FB7BB900E047C8 /* JohnDeere_iPhoneUITests */,
+				85A84D4D28FB7BAF00E047C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85A84D4D28FB7BAF00E047C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A84D4C28FB7BAF00E047C8 /* JohnDeere_iPhone.app */,
+				85A84D5C28FB7BB900E047C8 /* JohnDeere_iPhoneTests.xctest */,
+				85A84D6628FB7BB900E047C8 /* JohnDeere_iPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A84D4E28FB7BAF00E047C8 /* JohnDeere_iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				85A84D4F28FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift */,
+				85D0DF4328FC96B8009C268B /* DataSource.swift */,
+				85A84D5128FB7BAF00E047C8 /* ContentView.swift */,
+				85C7480828FCAB5E002C0B6F /* Views */,
+				85D0DF3728FC6910009C268B /* Tab Bar */,
+				85D0DF3C28FC9413009C268B /* Themes */,
+				85A84D5328FB7BB700E047C8 /* Assets.xcassets */,
+				85A84D5528FB7BB700E047C8 /* Preview Content */,
+			);
+			path = JohnDeere_iPhone;
+			sourceTree = "<group>";
+		};
+		85A84D5528FB7BB700E047C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85A84D5628FB7BB700E047C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85A84D5F28FB7BB900E047C8 /* JohnDeere_iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				85A84D6028FB7BB900E047C8 /* JohnDeere_iPhoneTests.swift */,
+			);
+			path = JohnDeere_iPhoneTests;
+			sourceTree = "<group>";
+		};
+		85A84D6928FB7BB900E047C8 /* JohnDeere_iPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85A84D6A28FB7BB900E047C8 /* JohnDeere_iPhoneUITests.swift */,
+				85A84D6C28FB7BB900E047C8 /* JohnDeere_iPhoneUITestsLaunchTests.swift */,
+			);
+			path = JohnDeere_iPhoneUITests;
+			sourceTree = "<group>";
+		};
+		85C7480828FCAB5E002C0B6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85C7480B28FCAC56002C0B6F /* MyCourseView.swift */,
+				85C7480D28FCAC9D002C0B6F /* TechnicalCourseView.swift */,
+				85C7480928FCAB8D002C0B6F /* ProfileView.swift */,
+				85C7480F28FCC286002C0B6F /* AdminView.swift */,
+				85C7481128FCC298002C0B6F /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85D0DF3728FC6910009C268B /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				85D0DF3828FC7216009C268B /* TabBar.swift */,
+				85D0DF3A28FC7D9B009C268B /* TabBarButton.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		85D0DF3C28FC9413009C268B /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				85D0DF3D28FC9429009C268B /* ThemeChanger.swift */,
+				85D0DF3F28FC94D2009C268B /* ThemeDefinitions.swift */,
+				85D0DF4128FC9620009C268B /* ThemeManager.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A84D4B28FB7BAF00E047C8 /* JohnDeere_iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A84D7028FB7BB900E047C8 /* Build configuration list for PBXNativeTarget "JohnDeere_iPhone" */;
+			buildPhases = (
+				85A84D4828FB7BAF00E047C8 /* Sources */,
+				85A84D4928FB7BAF00E047C8 /* Frameworks */,
+				85A84D4A28FB7BAF00E047C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JohnDeere_iPhone;
+			productName = JohnDeere_iPhone;
+			productReference = 85A84D4C28FB7BAF00E047C8 /* JohnDeere_iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85A84D5B28FB7BB900E047C8 /* JohnDeere_iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A84D7328FB7BB900E047C8 /* Build configuration list for PBXNativeTarget "JohnDeere_iPhoneTests" */;
+			buildPhases = (
+				85A84D5828FB7BB900E047C8 /* Sources */,
+				85A84D5928FB7BB900E047C8 /* Frameworks */,
+				85A84D5A28FB7BB900E047C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85A84D5E28FB7BB900E047C8 /* PBXTargetDependency */,
+			);
+			name = JohnDeere_iPhoneTests;
+			productName = JohnDeere_iPhoneTests;
+			productReference = 85A84D5C28FB7BB900E047C8 /* JohnDeere_iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85A84D6528FB7BB900E047C8 /* JohnDeere_iPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A84D7628FB7BB900E047C8 /* Build configuration list for PBXNativeTarget "JohnDeere_iPhoneUITests" */;
+			buildPhases = (
+				85A84D6228FB7BB900E047C8 /* Sources */,
+				85A84D6328FB7BB900E047C8 /* Frameworks */,
+				85A84D6428FB7BB900E047C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85A84D6828FB7BB900E047C8 /* PBXTargetDependency */,
+			);
+			name = JohnDeere_iPhoneUITests;
+			productName = JohnDeere_iPhoneUITests;
+			productReference = 85A84D6628FB7BB900E047C8 /* JohnDeere_iPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A84D4428FB7BAF00E047C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					85A84D4B28FB7BAF00E047C8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					85A84D5B28FB7BB900E047C8 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 85A84D4B28FB7BAF00E047C8;
+					};
+					85A84D6528FB7BB900E047C8 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 85A84D4B28FB7BAF00E047C8;
+					};
+				};
+			};
+			buildConfigurationList = 85A84D4728FB7BAF00E047C8 /* Build configuration list for PBXProject "JohnDeere_iPhone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85A84D4328FB7BAF00E047C8;
+			productRefGroup = 85A84D4D28FB7BAF00E047C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A84D4B28FB7BAF00E047C8 /* JohnDeere_iPhone */,
+				85A84D5B28FB7BB900E047C8 /* JohnDeere_iPhoneTests */,
+				85A84D6528FB7BB900E047C8 /* JohnDeere_iPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A84D4A28FB7BAF00E047C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A84D5728FB7BB700E047C8 /* Preview Assets.xcassets in Resources */,
+				85A84D5428FB7BB700E047C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A84D5A28FB7BB900E047C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A84D6428FB7BB900E047C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A84D4828FB7BAF00E047C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D0DF3928FC7216009C268B /* TabBar.swift in Sources */,
+				85C7480C28FCAC56002C0B6F /* MyCourseView.swift in Sources */,
+				85C7481028FCC286002C0B6F /* AdminView.swift in Sources */,
+				85C7480A28FCAB8D002C0B6F /* ProfileView.swift in Sources */,
+				85D0DF3E28FC9429009C268B /* ThemeChanger.swift in Sources */,
+				85C7480E28FCAC9D002C0B6F /* TechnicalCourseView.swift in Sources */,
+				85D0DF4028FC94D2009C268B /* ThemeDefinitions.swift in Sources */,
+				85D0DF3B28FC7D9B009C268B /* TabBarButton.swift in Sources */,
+				85A84D5228FB7BAF00E047C8 /* ContentView.swift in Sources */,
+				85A84D5028FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift in Sources */,
+				85D0DF4428FC96B8009C268B /* DataSource.swift in Sources */,
+				85D0DF4228FC9620009C268B /* ThemeManager.swift in Sources */,
+				85C7481228FCC298002C0B6F /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A84D5828FB7BB900E047C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A84D6128FB7BB900E047C8 /* JohnDeere_iPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A84D6228FB7BB900E047C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A84D6D28FB7BB900E047C8 /* JohnDeere_iPhoneUITestsLaunchTests.swift in Sources */,
+				85A84D6B28FB7BB900E047C8 /* JohnDeere_iPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85A84D5E28FB7BB900E047C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A84D4B28FB7BAF00E047C8 /* JohnDeere_iPhone */;
+			targetProxy = 85A84D5D28FB7BB900E047C8 /* PBXContainerItemProxy */;
+		};
+		85A84D6828FB7BB900E047C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A84D4B28FB7BAF00E047C8 /* JohnDeere_iPhone */;
+			targetProxy = 85A84D6728FB7BB900E047C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85A84D6E28FB7BB900E047C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85A84D6F28FB7BB900E047C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A84D7128FB7BB900E047C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JohnDeere_iPhone/Preview Content\"";
+				DEVELOPMENT_TEAM = 74C35CH58N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mario.JohnDeere-iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85A84D7228FB7BB900E047C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JohnDeere_iPhone/Preview Content\"";
+				DEVELOPMENT_TEAM = 74C35CH58N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mario.JohnDeere-iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85A84D7428FB7BB900E047C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74C35CH58N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mario.JohnDeere-iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JohnDeere_iPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JohnDeere_iPhone";
+			};
+			name = Debug;
+		};
+		85A84D7528FB7BB900E047C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74C35CH58N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mario.JohnDeere-iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JohnDeere_iPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JohnDeere_iPhone";
+			};
+			name = Release;
+		};
+		85A84D7728FB7BB900E047C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74C35CH58N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mario.JohnDeere-iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JohnDeere_iPhone;
+			};
+			name = Debug;
+		};
+		85A84D7828FB7BB900E047C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74C35CH58N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mario.JohnDeere-iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JohnDeere_iPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A84D4728FB7BAF00E047C8 /* Build configuration list for PBXProject "JohnDeere_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A84D6E28FB7BB900E047C8 /* Debug */,
+				85A84D6F28FB7BB900E047C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A84D7028FB7BB900E047C8 /* Build configuration list for PBXNativeTarget "JohnDeere_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A84D7128FB7BB900E047C8 /* Debug */,
+				85A84D7228FB7BB900E047C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A84D7328FB7BB900E047C8 /* Build configuration list for PBXNativeTarget "JohnDeere_iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A84D7428FB7BB900E047C8 /* Debug */,
+				85A84D7528FB7BB900E047C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A84D7628FB7BB900E047C8 /* Build configuration list for PBXNativeTarget "JohnDeere_iPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A84D7728FB7BB900E047C8 /* Debug */,
+				85A84D7828FB7BB900E047C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85A84D4428FB7BAF00E047C8 /* Project object */;
+}
