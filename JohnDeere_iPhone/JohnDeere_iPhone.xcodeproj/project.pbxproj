@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85855B302921B3AE000C3427 /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85855B2F2921B3AE000C3427 /* DictionaryView.swift */; };
+		85855B322921CD6C000C3427 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85855B312921CD6C000C3427 /* WordView.swift */; };
 		85A84D5028FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D4F28FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift */; };
 		85A84D5228FB7BAF00E047C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D5128FB7BAF00E047C8 /* ContentView.swift */; };
 		85A84D5428FB7BB700E047C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A84D5328FB7BB700E047C8 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		85A84D6128FB7BB900E047C8 /* JohnDeere_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D6028FB7BB900E047C8 /* JohnDeere_iPhoneTests.swift */; };
 		85A84D6B28FB7BB900E047C8 /* JohnDeere_iPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D6A28FB7BB900E047C8 /* JohnDeere_iPhoneUITests.swift */; };
 		85A84D6D28FB7BB900E047C8 /* JohnDeere_iPhoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A84D6C28FB7BB900E047C8 /* JohnDeere_iPhoneUITestsLaunchTests.swift */; };
+		85C3A4342921FFBF00C99516 /* QuizOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C3A4332921FFBF00C99516 /* QuizOneView.swift */; };
+		85C3A4382922123D00C99516 /* QuizFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C3A4372922123C00C99516 /* QuizFinishView.swift */; };
 		85C7480A28FCAB8D002C0B6F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7480928FCAB8D002C0B6F /* ProfileView.swift */; };
 		85C7480C28FCAC56002C0B6F /* MyCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7480B28FCAC56002C0B6F /* MyCourseView.swift */; };
 		85C7480E28FCAC9D002C0B6F /* TechnicalCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C7480D28FCAC9D002C0B6F /* TechnicalCourseView.swift */; };
@@ -25,6 +29,21 @@
 		85D0DF4028FC94D2009C268B /* ThemeDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF3F28FC94D2009C268B /* ThemeDefinitions.swift */; };
 		85D0DF4228FC9620009C268B /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF4128FC9620009C268B /* ThemeManager.swift */; };
 		85D0DF4428FC96B8009C268B /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0DF4328FC96B8009C268B /* DataSource.swift */; };
+		85D41E142922A17100DBF3CC /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D41E132922A17100DBF3CC /* viewModel.swift */; };
+		85D41E162922A28A00DBF3CC /* coursesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 85D41E152922A28A00DBF3CC /* coursesData.json */; };
+		85D45ABD2923ED9100C41F2C /* QuizTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D45ABC2923ED9100C41F2C /* QuizTwoView.swift */; };
+		85D45ABF2923EF1800C41F2C /* QuizThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D45ABE2923EF1800C41F2C /* QuizThreeView.swift */; };
+		85FAE38E29288BC400131701 /* QuizAnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE38D29288BC400131701 /* QuizAnswerButton.swift */; };
+		85FAE39029288CAC00131701 /* Borrar1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE38F29288CAC00131701 /* Borrar1.swift */; };
+		85FAE39429288CEA00131701 /* Borrar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE39329288CEA00131701 /* Borrar2.swift */; };
+		85FAE39629288CF500131701 /* Borrar3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE39529288CF500131701 /* Borrar3.swift */; };
+		85FAE39829288D0100131701 /* Borrar4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE39729288D0100131701 /* Borrar4.swift */; };
+		85FAE39A29288D0900131701 /* Borrar5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE39929288D0900131701 /* Borrar5.swift */; };
+		85FAE39C29288D2200131701 /* Borrar6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE39B29288D2200131701 /* Borrar6.swift */; };
+		85FAE39E29288D2C00131701 /* Borrar7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE39D29288D2C00131701 /* Borrar7.swift */; };
+		85FAE3A029288D8500131701 /* Borrar8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE39F29288D8500131701 /* Borrar8.swift */; };
+		85FAE3A229288D8E00131701 /* Borrar9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE3A129288D8E00131701 /* Borrar9.swift */; };
+		85FAE3A429288D9900131701 /* Borrar10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FAE3A329288D9900131701 /* Borrar10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +64,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85855B2F2921B3AE000C3427 /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
+		85855B312921CD6C000C3427 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		85A84D4C28FB7BAF00E047C8 /* JohnDeere_iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnDeere_iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A84D4F28FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnDeere_iPhoneApp.swift; sourceTree = "<group>"; };
 		85A84D5128FB7BAF00E047C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		85A84D5328FB7BB700E047C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A84D5328FB7BB700E047C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = JohnDeere_iPhone/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		85A84D5628FB7BB700E047C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85A84D5C28FB7BB900E047C8 /* JohnDeere_iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohnDeere_iPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A84D6028FB7BB900E047C8 /* JohnDeere_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnDeere_iPhoneTests.swift; sourceTree = "<group>"; };
 		85A84D6628FB7BB900E047C8 /* JohnDeere_iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohnDeere_iPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A84D6A28FB7BB900E047C8 /* JohnDeere_iPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnDeere_iPhoneUITests.swift; sourceTree = "<group>"; };
 		85A84D6C28FB7BB900E047C8 /* JohnDeere_iPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnDeere_iPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85C3A4332921FFBF00C99516 /* QuizOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOneView.swift; sourceTree = "<group>"; };
+		85C3A4372922123C00C99516 /* QuizFinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizFinishView.swift; sourceTree = "<group>"; };
 		85C7480928FCAB8D002C0B6F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		85C7480B28FCAC56002C0B6F /* MyCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCourseView.swift; sourceTree = "<group>"; };
 		85C7480D28FCAC9D002C0B6F /* TechnicalCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalCourseView.swift; sourceTree = "<group>"; };
@@ -66,6 +89,21 @@
 		85D0DF3F28FC94D2009C268B /* ThemeDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDefinitions.swift; sourceTree = "<group>"; };
 		85D0DF4128FC9620009C268B /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		85D0DF4328FC96B8009C268B /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		85D41E132922A17100DBF3CC /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
+		85D41E152922A28A00DBF3CC /* coursesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = coursesData.json; path = ../../../../../../../../../../../Downloads/coursesData.json; sourceTree = "<group>"; };
+		85D45ABC2923ED9100C41F2C /* QuizTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTwoView.swift; sourceTree = "<group>"; };
+		85D45ABE2923EF1800C41F2C /* QuizThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizThreeView.swift; sourceTree = "<group>"; };
+		85FAE38D29288BC400131701 /* QuizAnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAnswerButton.swift; sourceTree = "<group>"; };
+		85FAE38F29288CAC00131701 /* Borrar1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar1.swift; sourceTree = "<group>"; };
+		85FAE39329288CEA00131701 /* Borrar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar2.swift; sourceTree = "<group>"; };
+		85FAE39529288CF500131701 /* Borrar3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar3.swift; sourceTree = "<group>"; };
+		85FAE39729288D0100131701 /* Borrar4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar4.swift; sourceTree = "<group>"; };
+		85FAE39929288D0900131701 /* Borrar5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar5.swift; sourceTree = "<group>"; };
+		85FAE39B29288D2200131701 /* Borrar6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar6.swift; sourceTree = "<group>"; };
+		85FAE39D29288D2C00131701 /* Borrar7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar7.swift; sourceTree = "<group>"; };
+		85FAE39F29288D8500131701 /* Borrar8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar8.swift; sourceTree = "<group>"; };
+		85FAE3A129288D8E00131701 /* Borrar9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar9.swift; sourceTree = "<group>"; };
+		85FAE3A329288D9900131701 /* Borrar10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borrar10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +157,7 @@
 				85A84D4F28FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift */,
 				85D0DF4328FC96B8009C268B /* DataSource.swift */,
 				85A84D5128FB7BAF00E047C8 /* ContentView.swift */,
+				85D41E152922A28A00DBF3CC /* coursesData.json */,
 				85C7480828FCAB5E002C0B6F /* Views */,
 				85D0DF3728FC6910009C268B /* Tab Bar */,
 				85D0DF3C28FC9413009C268B /* Themes */,
@@ -157,6 +196,24 @@
 			isa = PBXGroup;
 			children = (
 				85C7480B28FCAC56002C0B6F /* MyCourseView.swift */,
+				85855B2F2921B3AE000C3427 /* DictionaryView.swift */,
+				85C3A4332921FFBF00C99516 /* QuizOneView.swift */,
+				85FAE38F29288CAC00131701 /* Borrar1.swift */,
+				85FAE39329288CEA00131701 /* Borrar2.swift */,
+				85FAE39529288CF500131701 /* Borrar3.swift */,
+				85FAE39729288D0100131701 /* Borrar4.swift */,
+				85FAE39929288D0900131701 /* Borrar5.swift */,
+				85FAE39B29288D2200131701 /* Borrar6.swift */,
+				85FAE39D29288D2C00131701 /* Borrar7.swift */,
+				85FAE39F29288D8500131701 /* Borrar8.swift */,
+				85FAE3A129288D8E00131701 /* Borrar9.swift */,
+				85FAE3A329288D9900131701 /* Borrar10.swift */,
+				85FAE38D29288BC400131701 /* QuizAnswerButton.swift */,
+				85D45ABC2923ED9100C41F2C /* QuizTwoView.swift */,
+				85D45ABE2923EF1800C41F2C /* QuizThreeView.swift */,
+				85C3A4372922123C00C99516 /* QuizFinishView.swift */,
+				85D41E132922A17100DBF3CC /* viewModel.swift */,
+				85855B312921CD6C000C3427 /* WordView.swift */,
 				85C7480D28FCAC9D002C0B6F /* TechnicalCourseView.swift */,
 				85C7480928FCAB8D002C0B6F /* ProfileView.swift */,
 				85C7480F28FCC286002C0B6F /* AdminView.swift */,
@@ -289,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85A84D5728FB7BB700E047C8 /* Preview Assets.xcassets in Resources */,
+				85D41E162922A28A00DBF3CC /* coursesData.json in Resources */,
 				85A84D5428FB7BB700E047C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,19 +372,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85855B302921B3AE000C3427 /* DictionaryView.swift in Sources */,
 				85D0DF3928FC7216009C268B /* TabBar.swift in Sources */,
+				85C3A4342921FFBF00C99516 /* QuizOneView.swift in Sources */,
+				85FAE3A429288D9900131701 /* Borrar10.swift in Sources */,
+				85FAE39E29288D2C00131701 /* Borrar7.swift in Sources */,
+				85FAE39029288CAC00131701 /* Borrar1.swift in Sources */,
+				85C3A4382922123D00C99516 /* QuizFinishView.swift in Sources */,
+				85D41E142922A17100DBF3CC /* viewModel.swift in Sources */,
 				85C7480C28FCAC56002C0B6F /* MyCourseView.swift in Sources */,
 				85C7481028FCC286002C0B6F /* AdminView.swift in Sources */,
+				85FAE38E29288BC400131701 /* QuizAnswerButton.swift in Sources */,
+				85FAE39829288D0100131701 /* Borrar4.swift in Sources */,
+				85D45ABD2923ED9100C41F2C /* QuizTwoView.swift in Sources */,
+				85FAE39C29288D2200131701 /* Borrar6.swift in Sources */,
+				85FAE3A029288D8500131701 /* Borrar8.swift in Sources */,
 				85C7480A28FCAB8D002C0B6F /* ProfileView.swift in Sources */,
+				85FAE39629288CF500131701 /* Borrar3.swift in Sources */,
 				85D0DF3E28FC9429009C268B /* ThemeChanger.swift in Sources */,
 				85C7480E28FCAC9D002C0B6F /* TechnicalCourseView.swift in Sources */,
 				85D0DF4028FC94D2009C268B /* ThemeDefinitions.swift in Sources */,
 				85D0DF3B28FC7D9B009C268B /* TabBarButton.swift in Sources */,
+				85FAE39A29288D0900131701 /* Borrar5.swift in Sources */,
 				85A84D5228FB7BAF00E047C8 /* ContentView.swift in Sources */,
+				85D45ABF2923EF1800C41F2C /* QuizThreeView.swift in Sources */,
 				85A84D5028FB7BAF00E047C8 /* JohnDeere_iPhoneApp.swift in Sources */,
+				85855B322921CD6C000C3427 /* WordView.swift in Sources */,
 				85D0DF4428FC96B8009C268B /* DataSource.swift in Sources */,
+				85FAE39429288CEA00131701 /* Borrar2.swift in Sources */,
 				85D0DF4228FC9620009C268B /* ThemeManager.swift in Sources */,
 				85C7481228FCC298002C0B6F /* SettingsView.swift in Sources */,
+				85FAE3A229288D8E00131701 /* Borrar9.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

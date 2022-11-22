@@ -71,7 +71,7 @@ struct SettingsView: View {
                         }
                         .padding(.horizontal)
                         
-                        ScrollView(.horizontal) {
+                        ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(0..<ThemeManager.themes.count, id: \.self) {theme in
                                     Button() { //ThemeManager.themes[theme].themeName) {

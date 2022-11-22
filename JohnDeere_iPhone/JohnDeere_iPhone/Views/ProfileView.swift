@@ -147,7 +147,7 @@ struct ProfileView: View {
                         Spacer()
                     }
                     HStack {
-                        ScrollView(.horizontal) {
+                        ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(0...3, id: \.self) {theme in
                                     Button() {
@@ -183,7 +183,7 @@ struct ProfileView: View {
                         Spacer()
                     }
                     HStack {
-                        ScrollView(.horizontal) {
+                        ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 ForEach(0...5, id: \.self) {theme in
                                     Button() {

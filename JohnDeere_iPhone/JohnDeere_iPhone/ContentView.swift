@@ -10,8 +10,10 @@ import SwiftUI
 struct ContentView: View {
     
     @EnvironmentObject var dataSource: DataSource
-    // put this in every view 
+
     @State var selectedTab: Tabs = .profile
+    
+    //@ObservedObject var viewModel = ViewModel()
     
     init() {
         UITabBar.appearance().isHidden = true
@@ -23,20 +25,21 @@ struct ContentView: View {
             Color(dataSource.selectedTheme.backgroundColor)
                 .ignoresSafeArea()
             //VStack {
-                /*Spacer()
-                Text("Sample Text")
-                    .foregroundColor(Color(dataSource.selectedTheme.fontColor))
-                Rectangle()
-                    .fill(Color("DefaultBoxes"))
-                    .frame(width: 100, height: 100)
-                    //.shadow(radius: 10, x: 0, y: 5)
-                ForEach(0..<ThemeManager.themes.count, id: \.self) {theme in
-                    Button(ThemeManager.themes[theme].themeName) {
-                        dataSource.selectedThemeAppStorage = theme
-                    }
-                }*/
-                //Spacer()
-                TabView(selection: $selectedTab) {
+            /*Spacer()
+             Text("Sample Text")
+             .foregroundColor(Color(dataSource.selectedTheme.fontColor))
+             Rectangle()
+             .fill(Color("DefaultBoxes"))
+             .frame(width: 100, height: 100)
+             //.shadow(radius: 10, x: 0, y: 5)
+             ForEach(0..<ThemeManager.themes.count, id: \.self) {theme in
+             Button(ThemeManager.themes[theme].themeName) {
+             dataSource.selectedThemeAppStorage = theme
+             }
+             }*/
+            //Spacer()
+            TabView(selection: $selectedTab) {
+                NavigationView {
                     HStack {
                         switch selectedTab {
                         case .myCourse:
@@ -49,11 +52,12 @@ struct ContentView: View {
                             AdminView()
                         case .settings:
                             SettingsView()
+                        }
                     }
                 }
-            }
-            .safeAreaInset(edge: .bottom, spacing: 0) {
-                TabBar(selectedTab: $selectedTab)
+                .safeAreaInset(edge: .bottom, spacing: 0) {
+                    TabBar(selectedTab: $selectedTab)
+                }
             }
         }
     }
